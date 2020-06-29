@@ -1,0 +1,50 @@
+:root {
+    box-sizing: border-box;
+}
+#maze {
+    display: flex;
+    height: 300px;
+    width: 420px;
+    flex-direction: column;
+    background-color: gray;
+    position: absolute;
+    
+}
+
+
+.block {
+    /* background-color: gray; */
+    flex-grow: 1;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    flex-grow: 1;
+}
+
+.block.wall {
+    background-color: orange;
+}
+
+.block.start {
+    background-color:white;
+}
+
+.block.finish {
+    background-color: white;
+}
+#player {
+    background-color: blue;
+    flex-grow: 1;
+    position: relative;
+    /* top: 00px;
+    left: 100px; */
+    
+    
+    
+
+}
