@@ -1,6 +1,16 @@
 :root {
     box-sizing: border-box;
 }
+
+html {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: lightgray;
+}
+
 #maze {
     display: flex;
     height: 300px;
@@ -8,12 +18,9 @@
     flex-direction: column;
     background-color: gray;
     position: absolute;
-    
 }
 
-
 .block {
-    /* background-color: gray; */
     flex-grow: 1;
     height: 20px;
     width: 20px;
@@ -37,15 +44,17 @@
 .block.finish {
     background-color: red;
 }
+
 #player {
     background-color: blue;
     flex-grow: 1;
     position: relative;
     border-radius: 50%;
-    /* top: 00px;
-    left: 100px; */
-    
-    
-    
+}
 
+#blue {
+    color: blue;
+}
+#red {
+    color: red;
 }
