@@ -35,12 +35,13 @@
 }
 
 .block.finish {
-    background-color: white;
+    background-color: red;
 }
 #player {
     background-color: blue;
     flex-grow: 1;
     position: relative;
+    border-radius: 50%;
     /* top: 00px;
     left: 100px; */
     
