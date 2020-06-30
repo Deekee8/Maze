@@ -49,6 +49,7 @@ document.addEventListener('keydown', movePlayer)
 
 let playerTop = 0
 let playerLeft = 0
+let winningDiv = document.getElementById('winner')
 
 
 function movePlayer(arrow) {
@@ -82,7 +83,7 @@ function movePlayer(arrow) {
     document.getElementById('player').style.left = playerLeft + 'px'
     playerPosition = map[x][y]
     if (map[x][y] === 'F') {
-        alert('You Won!')
+        document.getElementById('winner').textContent = 'You Win!'
     }
 }
 

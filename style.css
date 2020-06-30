@@ -9,6 +9,7 @@ html {
 
 body {
     background-color: lightgray;
+    position: relative;
 }
 
 #maze {
@@ -57,4 +58,10 @@ body {
 }
 #red {
     color: red;
+}
+
+#winner {
+    position: relative;
+    top: 160px;
+    left: 420px;
 }
