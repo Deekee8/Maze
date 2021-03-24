@@ -1,14 +1,22 @@
-https://dequanmitchell.gitlab.io/maze/
+# Welcome to Maze 👋
+[![Twitter: devDeQuan](https://img.shields.io/twitter/follow/devDeQuan.svg?style=social)](https://twitter.com/devDeQuan)
 
-1. Create maze
-    a. use for loop to write blocks to page
-    b. style blocks so they are visible
+> Keyboard-controlled maze game. Created as part of the Software Engineering Certification program at Kenzie Academy.
 
-2. Allow player to navigate through maze without hitting walls
-    a. create player icon and track it's position through maze
-        I. add event listener to listen for key presses
-        II. update position of ball as it moves
-    b. set conditions that keep ball from entering into walls
+### ✨ [Demo](https://deekee8.github.io/Maze/)
 
-3. Let player know when they have successfully navigated to finish
-    a. display an alert when player has reached red block
+## Author
+
+👤 **DeQuan Mitchell**
+
+* Twitter: [@devDeQuan](https://twitter.com/devDeQuan)
+* Github: [@Deekee8](https://github.com/Deekee8)
+* LinkedIn: [@dequanmitchell](https://linkedin.com/in/dequanmitchell)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
